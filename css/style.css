@@ -44,3 +44,15 @@ footer div {
   padding: 40px;
   text-align: center;
 }
+
+@media(min-width: 1368px) {
+  nav {
+    font-size: 40px;
+  }
+  section p {
+    font-size: 40px;
+  }
+  footer div {
+    font-size: 40px;
+  }
+}
