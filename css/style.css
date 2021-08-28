@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height; 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #00203F;
+  color: #DDDDDD;
+  border-bottom: 2px solid #999999;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background-color: #ADEFD1;
+}
+
+section p {
+  font-size: 20px;
+}
+
+canvas {
+  margin: 40px 10%;
+  width: 80%;
+  background-color: #FFFFFF;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  color: #FFFFFF;
+  align-self: flex-end;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer div {
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+}
