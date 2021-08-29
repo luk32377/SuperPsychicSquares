@@ -24,6 +24,7 @@ section p {
 }
 
 canvas {
+  touch-action: manipulation;
   margin: 40px 10%;
   width: 80%;
   background-color: #FFFFFF;
@@ -44,6 +45,7 @@ footer div {
   padding: 40px;
   text-align: center;
 }
+
 
 @media(min-width: 1368px) {
   nav {
