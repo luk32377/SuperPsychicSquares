@@ -30,10 +30,10 @@ document.onmouseup = function(e) {
 }
 
 document.ontouchstart = function(e) {
-  var touch = e.originalEvent.touches[0];
+  var touch = e.touches[0];
   const rect = canvas.getBoundingClientRect();
-  mouseX = touch.pageX - rect.left;
-  mouseY = touch.pageY - rect.top;
+  mouseX = touch.clientX - rect.left;
+  mouseY = touch.clientY - rect.top;
   let sx = 1000.0 / canvasWidth;
   let sy = 600.0 / canvasHeight;
   mouseX *= sx;
