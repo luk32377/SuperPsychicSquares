@@ -1,0 +1,28 @@
+
+document {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #BED8D4;
+}
+
+header {
+    padding: 40px;
+    background-color: #78D5D7;
+}
+
+section {
+    padding: 40px;
+    font-size: 20px;
+}
+
+#mcanvas {
+    background-color: #FFFFFF;
+}
+
+footer {
+    padding: 40px;
+    background-color: #63D2FF;
+}
